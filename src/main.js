@@ -18,8 +18,6 @@ let isMuted = false;
 
 document.addEventListener('DOMContentLoaded', () => {
   initTiltEffect();
-  initServerStatusCheck();
-  initLaunchInterceptor();
   initNavbarScroll();
   initMoodWidget();
   initClickSparkles();
